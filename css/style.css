@@ -2,3 +2,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+#display-result{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+div> .country{
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+}
