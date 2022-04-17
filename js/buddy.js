@@ -11,12 +11,12 @@ const displayBuddy = buddy => {
     //console.log(result)
     const show = document.getElementById('show');
     for (const results of result) {
-        console.log(results.name)
+        console.log(results.location)
         const p = document.createElement('p');
         p.innerText = `email: ${results.email}
          cell: ${results.cell}
         name: ${results.name.title} ${results.name.first} ${results.name.last} 
-         location: ${results.location}`
+         location: ${results.location.city} ${results.location.state}`
         show.appendChild(p)
     }
 }
